@@ -15,7 +15,7 @@ public class CorsConfig {
                 registry.addMapping("/**") // allow all endpoints
                         .allowedOrigins(
                          "http://localhost:5173",
-                        "http://localhost:3000",
+                        "http://localhost:30082",
                         "http://34.204.199.101",
                         "http://98.94.241.163"
                                                 )
